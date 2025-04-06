@@ -23,3 +23,4 @@ class Band:
         """Return a string showing each musician playing their first instrument, or needing one."""
         results = [musician.play() for musician in self.musicians]
         return "\n".join(results)
+
